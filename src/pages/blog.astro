@@ -1,0 +1,7 @@
+---
+// import BlogPost from '../components/BlogPost.astro';
+import BlogLayout from '../layouts/BlogLayout.astro'
+const allPosts = await Astro.glob('../pages/posts/*.md');
+---
+<BlogLayout>
+</BlogLayout>
